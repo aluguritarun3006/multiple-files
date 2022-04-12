@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tarun-bucket" {
-  bucket = "my-tarun-test-bucket" ,,
+  bucket = "my-tarun-test-bucket"
   acl    = "private"
 
   tags = {
