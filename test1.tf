@@ -4,6 +4,6 @@ resource "aws_s3_bucket" "tarun-bucket" {
 
   tags = {
     Name        = "My tarun bucket"
-    Environment = "Dev"
+    Environment = "Dev2"
   }
 }
